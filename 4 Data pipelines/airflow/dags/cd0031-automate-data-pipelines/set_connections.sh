@@ -12,22 +12,21 @@
 # "description": "", 
 # "host": "", 
 # "schema": "", 
-# "login": "AKIASVOIERB3XS2UTDWN", 
+# "login": "", 
 # "password": "wi8OQDVoMHzo07YJ8r3vjqy5CYOScHDGLrGLMR47", 
 # "port": null, 
 # "is_encrypted": "True", 
 # "is_extra_encrypted": "True", 
 # "extra_dejson": {}, 
-# "get_uri": "aws://AKIASVOIERB3XS2UTDWN:wi8OQDVoMHzo07YJ8r3vjqy5CYOScHDGLrGLMR47@"
+# "get_uri": ""
 # }]
 #
 # Copy the value after "get_uri":
 #
-# For example: aws://AKIASVOIERB3XS2UTDWN:wi8OQDVoMHzo07YJ8r3vjqy5CYOScHDGLrGLMR47@
-#
+# For example: 
 # TO-DO: Update the following command with the URI and un-comment it:
 #
-airflow connections add aws_credentials --conn-uri 'aws://AKIASVOIERB3XS2UTDWN:wi8OQDVoMHzo07YJ8r3vjqy5CYOScHDGLrGLMR47@'
+airflow connections add aws_credentials --conn-uri ''
 #
 # After we generated the credentials in connections
 # TO-DO: run the follwing command and observe the JSON output: 
